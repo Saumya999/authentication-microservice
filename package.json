@@ -1,0 +1,37 @@
+{
+  "name": "authentication-microservice",
+  "version": "1.0.0",
+  "description": "API, REST, JWT, Token",
+  "main": "server.js",
+  "scripts": {
+    "test": "None",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saumya999/authentication-microservice.git"
+  },
+  "keywords": [
+    "REST",
+    "Login",
+    "With",
+    "JWT",
+    "Token",
+    "Creation"
+  ],
+  "author": "Shraddha Wankhade, Saumyadipta Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saumya999/authentication-microservice/issues"
+  },
+  "homepage": "https://github.com/Saumya999/authentication-microservice#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
+  }
+}
